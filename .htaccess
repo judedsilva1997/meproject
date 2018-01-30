@@ -1,0 +1,11 @@
+
+# HTID:3752230: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:3752230:
+
+Redirect 301 /dash/pages/index.html /dash/pages/index.php
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^/?(.*)$ /$1.php [L]

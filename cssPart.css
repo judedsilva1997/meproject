@@ -1,0 +1,209 @@
+//css file 1
+table{
+	font-family: 'Comfortaa';
+}
+
+form{
+border-radius: 0.5vw;
+font-size: 16px;
+padding: 9px;
+height: auto;
+font-family: 'Comfortaa';
+}
+body{
+font-family: 'Comfortaa';
+width: auto;
+padding: 10px;
+}
+input[type=text], input[type=password],input[type=date] {
+
+border: 0.2vw solid grey
+float: center;
+padding: 0.3vw 0.3vw;
+width: 100%;
+ opacity: 1;
+font-size: 15px;
+}
+.star{
+	 color: red;
+}
+.drop{
+border: 0.2vw solid grey
+float: center;
+padding: 0.3vw 0.3vw;
+width: 100%;
+ opacity: 1;
+font-size: 15px;
+}
+textarea{
+	width:100%;
+}
+label{
+	font-size:17;
+	
+	color: #333333;
+}
+input[type=submit],input[type=reset]{
+padding: 0.3vw;
+color: white;
+width: 20%;
+font-family: 'Comfortaa';
+font-size: 20px;
+border-radius: 12px;
+background-color: #9bba6e;
+opacity: 1.5;
+}
+input[type=submit]:hover {
+    background-color: #FFD133;
+}
+input[type=reset]:hover {
+    background-color: #FFD133;
+}
+.out{
+margin-top: 190px;
+opacity:0.8;
+}
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #424242;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+            .header-top{
+                width:100%;
+		height: 7vw;
+            }
+            .header-top img{
+                width: 70px;
+                margin-left: 20px;
+            }
+            .header-top .title{
+                line-height: 28px;
+                margin-top: 34px;
+                color: #fff;
+                font-size: 30px;
+                word-spacing: 12px;
+                
+                margin-left: 40px;             
+                float: left;
+                font-family: 'Comfortaa';
+                text-transform: capitalize;
+                text-align: center;
+                
+            }
+            .header-top .title2{
+                line-height: 28px;
+                margin-top: 40px;
+                color: #fff;
+                font-size: 35px;
+                word-spacing: 12px;
+                
+                margin-left: 30px;             
+                float: left;
+                font-family: 'Comfortaa';
+                text-transform: capitalize;
+                text-align: center;
+                
+            }
+        
+.serif{
+font-family: 'Comfortaa';
+}
+.error1{
+font-family: 'Comfortaa';
+color: red;
+margin-left:30%;
+}
+.navbar > div > ul > li:hover{ 
+    color: #9bba6e;
+    background-color: #FFD133;
+}
+.imagee {
+	height: auto;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.imagee:hover{
+	opacity:1;
+}
+ p	{
+  	font-family: 'Comfortaa';
+	}
+a	{ 
+color: #9bba6e;
+font-family: 'Comfortaa';
+}
+.nav-pills > li > a:hover{
+    color: #9bba6e;
+}
+.nav-pills > li.active > a
+{background-color: #9bba6e;
+}
+.nav-pills > li.active > a:hover
+{background-color: #9bba6e;
+}
+.list-group > a.active{
+border: 0.2vw solid #9bba6e;
+background-color: #9bba6e;
+}
+
+.list-group > a.active:hover{
+background-color: #9bba6e;
+border: 0.2vw solid #9bba6e;
+}
+.list-group > a
+{color: #9bba6e;
+}
+.list-group > a:hover
+{color: #9bba6e;
+}
+.nav-pills	{ 
+color: #9bba6e;
+font-family: 'Comfortaa';
+}
+.editable {
+border: 0.2vw solid grey
+float: center;
+padding: 0.3vw 0.3vw;
+width: 200%;
+ opacity: 1;
+font-size: 15px;
+}
+.edd1{
+width: 400%;
+border: 0.2vw solid grey
+float: center;
+padding: 0.3vw 0.3vw;
+ opacity: 1;
+font-size: 15px;
+}
+.edd{
+width: 650px;
+}
+.naam{
+font-size: 18px;
+}
+.nm{
+font-size: 23px;}
+.nmm{
+font-size: 14px;
+}
+input[type=email] {
+border: 0.2vw solid grey
+float: center;
+padding: 0.3vw 0.3vw;
+width: 100%;
+ opacity: 1;
+font-size: 15px;
+}
+.paraa{
+width:300px;
+height:100px;
+}
+.foot{
+	color: #FBC02D;
+}
